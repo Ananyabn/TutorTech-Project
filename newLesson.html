@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Add Lesson</title>
+	 <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" th:href="@{/css/newLesson.css}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body th:style="'background:url(images/second.jpg);'+
+  'background-size:cover;'+
+  'background-repeat:no-repeat;'">
+   <a href="/trainerHome"><i class="fa-solid fa-house-signal"></i></a>
+	<span class="one">T</span>
+	<span class="second">U</span>
+	<span class="second">T</span>
+	<span class="second">O</span>
+	<span class="second">R</span>
+	<span class="one">T</span>
+	<span class="second">E</span>
+	<span class="second">C</span>
+	<span class="second">H</span>
+	<div class="container">
+		<center><h3><b>ADD NEW LESSON</b></h3></center>
+	
+	<form action="/addLesson" method="post">
+		
+		<label><b>Course ID:</b></label><br>
+		<input type="text" name="course" class="in" required>
+		<br>
+		<label><b>Lesson ID:</b></label><br>
+		<input type="text" name="lessonId" class="in" required>
+		<br>
+		<label><b>Lesson Name:</b></label><br>
+		<input type="text" name="lessonName" class="in" required>
+		<br>
+		<label><b>Lesson Topics:</b></label><br>
+		<input type="text" name="lessonTopics" class="in" required>
+		<br>
+		<label><b>Lesson Link:</b></label><br>
+		<input type="text" name="lessonLink" class="in" required>
+		<br><br>
+		<center><b><input type="submit" value="ADD LESSON" class="button"></b></center>
+	</form>
+	</div>
+</body>
+</html>

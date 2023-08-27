@@ -1,0 +1,52 @@
+
+
+
+.register-box{
+	width:350px;
+	height:450px;
+	padding:20px;
+	color:black;
+	border-radius: 10px ;
+	background-color:rgba(255,255,255,0.9);
+	margin-top: 55px;
+	margin-left: 500px;
+}
+
+#register-button
+{
+	width:100px;
+	border-radius: 20px ;
+	border:solid;
+	color:floralwhite;
+	background-color:black;
+	
+}
+a:link{
+	color: black;
+}
+a:visited{
+	color: black;
+}
+a:active{
+	color:darkmagenta;
+}
+a:hover{
+	color:darkmagenta;
+}
+
+.in{
+	width:270px;
+}
+i{
+	font-size:50px;
+}
+.one{
+	font-size: 50px;;
+}
+.second{
+	font-size:30px;
+}
+
+
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Welcome trainer</title>
+	 <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" th:href="@{/css/trainerHome.css}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body  th:style="'background:url(images/second.jpg);'+
+  'background-size:cover;'+
+  'background-repeat:no-repeat;'">
+ <a href="/login"><i class="fa-solid fa-house-signal"></i></a>
+	<span class="one">T</span>
+	<span class="second">U</span>
+	<span class="second">T</span>
+	<span class="second">O</span>
+	<span class="second">R</span>
+	<span class="one">T</span>
+	<span class="second">E</span>
+	<span class="second">C</span>
+	<span class="second">H</span>
+	
+	<div class="tbox">
+<h3><b>Welcome trainer!</b></h3>
+<br>
+<a href="/addC" class="button"><b>Add Course</b></a>
+
+<a href="/newLesson" class="button"><b>Add lesson</b></a>
+
+<a href="/viewCourses" class="button"><b>View Courses</b></a>
+<br><br>
+<a href="/logout" class="logout"><b>LOG OUT</b></a>
+</div>
+</body>
+</html>

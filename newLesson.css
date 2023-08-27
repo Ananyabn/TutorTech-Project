@@ -1,0 +1,33 @@
+
+.container
+{
+	width:350px;
+	height:420px;
+	padding:20px;
+	background-color:rgba(255,255,255,0.9);
+	border-radius: 10px ;
+	border:ridge black;
+	margin-top: 80px;
+	margin-left: 500px;
+}
+
+.in{
+	width:270px;
+}
+.one{
+	font-size: 50px;;
+}
+.second{
+	font-size:30px;
+}
+.button{
+	width:150px;
+	border-radius: 20px ;
+	border:solid;
+	color:floralwhite;
+	background-color:black;
+}
+i{
+	font-size:50px;
+	color:black;
+}

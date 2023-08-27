@@ -1,0 +1,18 @@
+th{
+	background-color:burlywood;
+	color:black;
+	height:50px;
+	border:2px ridge black;
+	padding-left:30px;
+	padding-right:30px;
+	text-align:center;
+}
+
+td{
+	width:200px;
+	height:50px;
+	background-color:white;
+	color:black;
+	border:2px ridge black;
+	text-align:center;
+	}
